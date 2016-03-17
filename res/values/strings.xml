@@ -19,5 +19,6 @@
     <string name="no">No</string>
     <string name="go">Go</string>
     <string name="url">Url</string>
+    <string name="search">Search</string>
 
 </resources>

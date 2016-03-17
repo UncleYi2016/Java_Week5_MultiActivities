@@ -22,9 +22,9 @@ public class WelcomeActivity extends Activity {
 		btnGo.setOnClickListener(new OnClickListener() {
 		 public void onClick(View v) {
 			 // Implicit activity to show a web link to the user using a browser.
-			 EditText editUrl = (EditText) findViewById(R.id.editUrl);
-			 String url = editUrl.getText().toString();
-			 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.hk/search?q=" + url));
+			 EditText editSearch = (EditText) findViewById(R.id.editSearch);
+			 String search = editSearch.getText().toString();
+			 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com.hk/search?q=" + search));
 			 startActivity(i);
 			 }
 		 });
